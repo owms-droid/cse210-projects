@@ -5,6 +5,6 @@ public class Entry
     public string _entryText;
 
     public void Display() {
-        console.WriteLine()
+        
     }
 }
