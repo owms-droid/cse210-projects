@@ -1,10 +1,15 @@
-public class Entry 
-{
-    public string _date;
-    public string _promptText;
-    public string _entryText;
+using System;
 
-    public void Display() {
-        
+public class Entry
+{
+    public string Prompt { get; }
+    public string Response { get; }
+    public DateTime Date { get; }
+
+    public Entry(string prompt, string response, DateTime date)
+    {
+        Prompt = prompt;
+        Response = response;
+        Date = date;
     }
 }
